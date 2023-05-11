@@ -7,3 +7,8 @@ def vocales(frase):
             contador = contador + 1
     return contador
 
+"""Función dados"""
+def dados():
+    import random
+    n = random.randint(1, 6)
+    return f"El número que ha salido ha sido: {n}"
